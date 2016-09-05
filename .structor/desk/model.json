@@ -14,8 +14,166 @@
           },
           "children": [
             {
-              "type": "span",
-              "text": "Click on me and start creating a new cool page."
+              "variantName": "2 colums",
+              "type": "Grid",
+              "props": {
+                "fluid": true
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 6,
+                        "sm": 12,
+                        "lg": 3
+                      },
+                      "children": [
+                        {
+                          "type": "Panel",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "p",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "LOGO",
+                                  "props": {}
+                                }
+                              ],
+                              "props": {}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 6,
+                        "sm": 12,
+                        "lg": 7
+                      },
+                      "children": [
+                        {
+                          "type": "Panel",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "p",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Menu",
+                                  "props": {}
+                                }
+                              ],
+                              "props": {}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 6,
+                        "sm": 12,
+                        "lg": 2
+                      },
+                      "children": [
+                        {
+                          "type": "Panel",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "p",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Sign in",
+                                  "props": {}
+                                }
+                              ],
+                              "props": {}
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "props": {}
+                },
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 6,
+                        "sm": 12,
+                        "lg": 3,
+                        "style": {}
+                      },
+                      "children": [
+                        {
+                          "type": "Panel",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "p",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Empty Panel",
+                                  "props": {}
+                                }
+                              ],
+                              "props": {}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 6,
+                        "sm": 12,
+                        "lg": 9
+                      },
+                      "children": [
+                        {
+                          "type": "Panel",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "p",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Empty Panel",
+                                  "props": {}
+                                }
+                              ],
+                              "props": {}
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "props": {}
+                }
+              ]
             }
           ]
         }
