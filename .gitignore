@@ -1,1 +1,4 @@
 /node_modules/
+/public/resources/styles.css
+/public/resources/bundle.js
+.idea/
